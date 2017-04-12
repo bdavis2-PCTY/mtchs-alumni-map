@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- jQuery -->
+    <script src="asset/jquery-3.2.0.js" type="text/javascript"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+	
+	<!-- Semantic UI -->
+	<script src="asset/semantic/semantic.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="asset/semantic/semantic.css" type="text/css" />
+	
+	<!-- Materialize -->
+	<script src="asset/materialize/materialize.min.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="asset/materialize/materialize.min.css" type="text/css" />
+	
+    <script src="asset/main.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="asset/styles.css" type="text/css" />
+	
+	<script src="asset/Spinner.js" type="text/javascript"></script>
+	
+	<title>MTCHS Graduate Map</title>
+</head>
+
+<body>
+	<div class="ui segment" id='loadingSpinner'>
+		<div class="ui active dimmer">
+			<div class="ui indeterminate text loader">Loading Map...</div>
+		</div>
+	</div>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_Dc8-cwVHWI9bG7fmyO5Qkqr7_ZeLXG0&callback=initMap"></script>
+    <div id="popoutWrapper" style="display: none; ">
+        <div id="popoutHeader">
+            <p id="dataName">Braydon Davis</p>
+            <hr />
+            <p>Graduating Class of <span id="dataGradYear">2017</span></p> 
+        </div>
+        <div id="popoutBody">
+            <p>Lives in: <span class='variableData' id="dataLivesIn">Meridian, ID</span></p>
+            <p>Education: <span class='variableData' id="dataEducation">High School</span></p>
+            <p class="employed">Job Title: <span class='variableData' id="dataJob">Software Developer</span></p>
+        </div>
+        <!--<div id="popoutFooter">
+            <p>Are you a former MTCHS graduate?</p>
+            <p><a href="#">Let us know</a> where you are now</p>
+        </div>-->
+    </div>
+	
+	<div id="popoutStudentSelect" style="display: none;">
+    </div>
+	
+	
+	<div id="overlay"></div>
+	<div id="map"></div>
+	<!--<div id="formerGraduateButton" class="waves-effect waves-light">Former MTCHS Graduate?<br />Add yourself!</div>-->
+</body>
+</html>

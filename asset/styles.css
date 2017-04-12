@@ -1,0 +1,187 @@
+﻿html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14pt;
+}
+
+#popoutWrapper a {
+    text-decoration: none;
+    color: #f7584c;
+    transition: color 300ms;
+}
+
+    #popoutWrapper a:hover {
+        color: #ac453d;
+    }
+
+#map {
+    height: 100%;
+	width:100%;
+    z-index: 5;
+}
+
+#popoutWrapper, #popoutStudentSelect {
+    background-color: #fff;
+    padding: 0;
+    box-shadow: 0 0 10px #000;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    width: 340px;
+    height: 100%;
+    border-top: 3px solid #f7584c;
+	max-height:100%;
+	overflow:auto;
+	z-index:10000;
+}
+
+    #popoutWrapper #popoutHeader {
+        text-align: center;
+    }
+
+        #popoutWrapper #popoutHeader hr {
+            border-top: 1pt solid #f7584c;
+            width: 150px;
+        }
+
+        #popoutWrapper #popoutHeader #dataName {
+            font-size: 24pt;
+        }
+
+        #popoutWrapper #popoutHeader #gradYear {
+        }
+
+    #popoutWrapper #popoutBody {
+        margin-top: 100px;
+        line-height: 2.5em;
+		padding:0 20px;
+    }
+
+        #popoutWrapper #popoutBody .variableData {
+            color: #f7584c;
+            font-weight: bold;
+        }
+
+    #popoutWrapper .notemployed {
+        display: none;
+    }
+
+    #popoutWrapper #popoutFooter {
+        margin-top: 300px;
+        text-align: center;
+        line-height: 0.7em;
+        position: fixed;
+        bottom: 0;
+        transition: opacity 500ms;
+		margin:auto;
+		width:inherit;
+    }
+	
+	.ui.button{
+		border-radius:0;
+	}
+
+@media (max-height: 670px) {
+    #popoutWrapper #popoutFooter {
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
+/* Student Selector */
+#popoutStudentSelect .circle{
+	width:4px;
+	height:4px;
+	border-radius:100%;
+	background-color:rgba(0,0,0,0.4);
+	display:inline-table;
+	margin: 0 4px 3px 4px;
+}
+
+#popoutStudentSelect .studentBlock{
+	padding:10px;
+	width:100%;
+}
+
+#popoutStudentSelect .studentBlock:hover *{
+	color:#000 !important;
+}
+
+#popoutStudentSelect .studentBlock:hover{
+	cursor:pointer;
+	background-color:#e8e8e8;
+}
+
+#popoutStudentSelect .gradYear, #popoutStudentSelect .location{
+	display:inline;
+	color:#888;
+	font-size:15px;
+}
+
+#studentSelectorClose {
+	float:right; 
+}
+
+#studentSelectorClose button {
+	min-height: 23px !important;
+      min-width: 46px !important;
+      font-size: 10px !important;
+      line-height: 0px; 
+}
+
+#overlay {
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.4);
+	display: none;
+	z-index:999;
+}
+
+#overlay:hover{
+	cursor:pointer;
+}
+
+
+
+/* Former Grad Button */
+#formerGraduateButton{
+	position:fixed;
+	left:10px;
+	bottom:10px;
+	padding:5px 10px;
+	z-index:9000;
+	font-size:14px;
+	text-align:center;
+	background: rgba(120,20,20,0.5);
+	color:#fff;
+	transition: background 200ms;
+}
+
+#formerGraduateButton:hover{ 
+	background: rgba(120,20,20,0.8);
+	cursor:pointer;
+}
+
+
+/* Spinner */ 
+#loadingSpinner {
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	opacity:0.4;
+	margin:0;
+	padding:0;
+	border-radius:0;
+}
