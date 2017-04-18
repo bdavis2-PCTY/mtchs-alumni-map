@@ -26,15 +26,21 @@ var _Spinner = function(spinnerObject){
 	}
 	
 	this.printCount = function(){
-		
+		console.log(this.count);
 	}
 }
 
 var o = $("#loadingSpinner");
 var Spinner = new _Spinner(o);
 Spinner.up(); // Init. page load
-
 $(window).on("load", Spinner.down);
 
-$(document).ajaxStart(Spinner.up)
-	.ajaxComplete(Spinner.down);
+$(document).ajaxStart(function(){
+	Spinner.up();
+	console.log("AJAX START");
+	})
+	
+	.ajaxComplete(function(){
+		Spinner.down();
+		console.log("AJAX END");
+	});
