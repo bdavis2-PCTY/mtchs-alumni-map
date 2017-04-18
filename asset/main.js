@@ -111,6 +111,7 @@ function showPanel(panelSelector){
 		return;
 	}
 	
+	console.log("show waiting = true");
 	waiting = true;
 	
 	// Determin ending positition for animation
@@ -140,6 +141,7 @@ function showPanel(panelSelector){
 	// Animate & show panel
 	return panelSelector.css(resetData).show().animate(toData, 'slow').promise().then(function(){
 		waiting = false;
+		console.log("show waiting = false");
 	});
 }
 
@@ -154,8 +156,6 @@ function hidePanel(panelSelector, hideOverlay){
 		return;
 	}
 	
-	waiting = true;
-	
 	// Automatically select the top one if none were passed as a paramater
 	if ( panelSelector == null ) {
 		if ( studentView.is(":visible"))
@@ -165,6 +165,9 @@ function hidePanel(panelSelector, hideOverlay){
 		else 
 			return false;
 	}
+	
+	waiting = true;
+	
 	
 	// If the panel isn't visible, just finish
 	if(!panelSelector.is(":visible")){
@@ -197,6 +200,7 @@ function hidePanel(panelSelector, hideOverlay){
 	return panelSelector.animate(toData, 'slow').promise().then(function(){
 		waiting = false;
 		panelSelector.hide(); 
+		console.log("hide waiting = false");
 	});
 }
 
@@ -217,6 +221,9 @@ function viewStudentFromId(id){
 
 // Populates the student viewing form with db response
 function populateStudentView(student){
+	console.log("here ==");
+	console.log(student);
+	
 	$(".employed").show();
 	$("#dataName").html(student.name);
 	$("#dataGradYear").html(student.gradYear);
