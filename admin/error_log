@@ -1,0 +1,6 @@
+[20-Apr-2017 14:00:39 America/Denver] PHP Warning:  require(class/Alumni.php): failed to open stream: No such file or directory in /home/coltonhs/public_html/alumni/admin/uploader.php on line 14
+[20-Apr-2017 14:00:39 America/Denver] PHP Warning:  require(class/Alumni.php): failed to open stream: No such file or directory in /home/coltonhs/public_html/alumni/admin/uploader.php on line 14
+[20-Apr-2017 14:00:39 America/Denver] PHP Fatal error:  require(): Failed opening required 'class/Alumni.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/coltonhs/public_html/alumni/admin/uploader.php on line 14
+[20-Apr-2017 14:03:27 America/Denver] PHP Warning:  require(class/Alumni.php): failed to open stream: No such file or directory in /home/coltonhs/public_html/alumni/admin/uploader.php on line 14
+[20-Apr-2017 14:03:27 America/Denver] PHP Warning:  require(class/Alumni.php): failed to open stream: No such file or directory in /home/coltonhs/public_html/alumni/admin/uploader.php on line 14
+[20-Apr-2017 14:03:27 America/Denver] PHP Fatal error:  require(): Failed opening required 'class/Alumni.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/coltonhs/public_html/alumni/admin/uploader.php on line 14
