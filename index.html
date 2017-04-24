@@ -1,32 +1,33 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<!-- jQuery -->
+    <!-- jQuery -->
     <script src="asset/jquery-3.2.0.js" type="text/javascript"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
 
-	<!-- Semantic UI -->
-	<script src="asset/semantic/semantic.js" type="text/javascript"></script>
-	<link rel="stylesheet" href="asset/semantic/semantic.css" type="text/css" />
+    <!-- Semantic UI -->
+    <script src="asset/semantic/semantic.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="asset/semantic/semantic.css" type="text/css" />
 
-	<!-- Materialize -->
-	<script src="asset/materialize/materialize.min.js" type="text/javascript"></script>
-	<link rel="stylesheet" href="asset/materialize/materialize.min.css" type="text/css" />
+    <!-- Materialize -->
+    <script src="asset/materialize/materialize.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="asset/materialize/materialize.min.css" type="text/css" />
 
     <script src="asset/main.js" type="text/javascript"></script>
     <link rel="stylesheet" href="asset/styles.css" type="text/css" />
 
-	<script src="asset/Spinner.js" type="text/javascript"></script>
+    <script src="asset/Spinner.js" type="text/javascript"></script>
 
-	<title>MTCHS Graduate Map</title>
+    <title>MTCHS Graduate Map</title>
 </head>
 
 <body>
-	<div class="ui segment" id='loadingSpinner'>
-		<div class="ui active dimmer">
-			<div class="ui indeterminate text loader">Loading Map...</div>
-		</div>
-	</div>
+    <div class="ui segment" id='loadingSpinner'>
+        <div class="ui active dimmer">
+            <div class="ui indeterminate text loader">Loading Map...</div>
+        </div>
+    </div>
 
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_Dc8-cwVHWI9bG7fmyO5Qkqr7_ZeLXG0&callback=initMap"></script>
     <div id="popoutWrapper" style="display: none; ">
@@ -46,91 +47,90 @@
         </div>-->
     </div>
 
-	<div id="popoutStudentSelect" style="display: none;">
+    <div id="popoutStudentSelect" style="display: none;">
     </div>
 
-    <div id="formPopoutWrapper" style="display: none; ">
-            <div id="formPopoutHeader">
-              New Graduate Marker
-            </div>
-            <div id="formPopoutBody">
-              <form id="alumniSubmissionForm" method="post" action="PHPFILE">
-                <div class="field" style="padding-left: 10px; padding-right: 10px;">
-                  <label for="name">Name: </label>
-                  <input type="text" id="nameField" name="nameField" />
-                </div>
-
-                <div class="field" style="padding-left: 10px; padding-right: 10px;">
-                  <label for="city">City: </label>
-                  <input id="cityField" name="cityField" />
-                </div>
-
-                <div class="field" style="padding-left: 10px; padding-right: 10px;">
-                  <label for="state">State: </label>
-                  <input id="stateField" name="stateField" />
-                </div>
-
-                <div class="field" style="padding-left: 10px; padding-right: 10px;">
-                  <label for="jobtitle">Job Title: </label>
-                  <input id="jobTitleField" name="jobTitleField" />
-                </div>
-
-                <div class="field" style="padding-left: 10px; padding-right: 10px;">
-                  <label for="salary">Salary: </label>
-                  <input id="salaryField" name="salaryField" />
-                </div>
-
-                <div class="field">
-                  <label for="location" style="margin-left: 10px;">Graduation Year: </label>
-                  <div style="text-align: center;">
-                    <div class="ui selection dropdown" id="graduationYearDropdown">
-                      <input type="hidden" name="graduationyear">
-                      <i class="dropdown icon"></i>
-                      <div class="default text">Graduation Year</div>
-                      <div class="menu">
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="field">
-                  <label for="location" style="margin-left: 10px;">Highest Education: </label>
-                  <div style="text-align: center;">
-                    <div class="ui selection dropdown" id="highestEducationDropdown">
-                      <input type="hidden" name="highesteducation">
-                      <i class="dropdown icon"></i>
-                      <div class="default text">Highest Education</div>
-                      <div class="menu">
-                        <div class="item" data-value="No Post-Secondary Training">No Post-Secondary Training</div>
-                        <div class="item" data-value="Some Post-Graduate Education">Some Post-Graduate Education</div>
-                        <div class="item" data-value="1-2 Years of College">1-2 Years of College</div>
-                        <div class="item" data-value="3-4 Years of College">3-4 Years of College</div>
-                        <div class="item" data-value="Associate's Degree">Associate's Degree</div>
-                        <div class="item" data-value="Bachelor's Degree">Bachelor's Degree</div>
-                        <div class="item" data-value="Master's Degree">Master's Degree</div>
-                        <div class="item" data-value="Doctorate Degree">Doctorate Degree</div>
-                        <div class="item" data-value="Industry Certification(s)">Industry Certification(s)</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="field" style="margin-top: 20px;">
-                  <button type="submit" style="margin-left: 120px;" id="submitButton" class="ui button waves-effect waves-red">Submit</button>
-                </div>
-
-              </form>
-            </div>
-            <!--<div id="popoutFooter">
-                <p>Are you a former MTCHS graduate?</p>
-                <p><a href="#">Let us know</a> where you are now</p>
-            </div>-->
+    <div id="newEntryForm" style="display: none; ">
+        <div id="newEntryHeader">
+            New Alumni <br />
+			<span style="font-style:italic;font-size:14px;">All information is validated before being published</span>
         </div>
+        <div id="newEntryBody">
+			<div id="errorMessage" style="display: none;" class="ui negative mini message">
+				<div class="header">
+					You're missing something...
+				</div>
+				<p></p>
+			</div>
+			
+			<div id="successMessage" style="display: none;" class="ui positive mini message">
+				<div class="header">
+					Success
+				</div>
+				<p>Your submission was successful and is now awaiting validation from MTCHS!</p>
+			</div>
+			
+			<div id="entireNewEntryForm">
+				<div class="newEntryField required">
+					<label for="name">First & Last Name: </label>
+					<input id="newEntryName" type="text" value="Braydon Davis2" />
+				</div>
 
+				<div class="newEntryField required">
+					<label for="city">City: </label>
+					<input id="newEntryCity" type="text" value="Meridian" />
+				</div>
 
-	<div id="overlay"></div>
-	<div id="map"></div>
-	<div id="formerGraduateButton" class="waves-effect waves-light">Former MTCHS Graduate?<br />Add yourself!</div>
+				<div class="newEntryField required">
+					<label for="state">State (country for alumni outside the U.S.): </label>
+					<input id="newEntryState" type="text"  value="ID" />
+				</div>
 
+				<div class="newEntryField">
+					<label for="jobtitle">Job Title (Leave blank if unemployed): </label>
+					<input id="newEntryJobTitle" type="text" />
+				</div>
+
+				<div class="newEntryField">
+					<label for="salary">Salary (<a href='http://www.convertunits.com/hourly/' target=_blank>Salary calculator</a>): </label>
+					<input id="newEntrySalary" type="number" />
+				</div>
+
+				<div class="newEntryField required">
+					<label for="location" style="margin-left: 10px;">Graduation Year: </label>
+					<select class="ui dropdown" id="newEntryGradYear" value="2016">
+						<!-- Populated via JS -->
+					</select>
+				</div>
+
+				<div class="newEntryField required">
+				<Br />
+					<label for="location" style="margin-left: 10px;">Highest Education: </label>
+					<select class="ui dropdown" id="newEntryEducation">
+						<option>No Post-Secondary Training</option> 
+						<option>Some Post-Graduate Education</option>
+						<option>1-2 Years of College</option>
+						<option>3-4 Years of College</option>
+						<option>Associate's Degree</option>
+						<option>Bachelor's Degree</option>
+						<option>Master's Degree</option>
+						<option>Doctorate Degree</option>
+						<option>Industry Certification(s)</option>
+					</select>
+				</div>
+
+				<div class="newEntryField" id="newEntrySubmit">
+					<button type="button" id="newEntrySubmitButton" class="ui button waves-effect waves-light" onclick="onNewEntrySubmit();">Submit</button>
+				</div>
+			</div>
+        </div>
+    </div>
+
+    <div id="overlay"></div>
+    <div id="map"></div>
+    <div id="formerGraduateButton" class="waves-effect waves-light">Former MTCHS Graduate?
+        <br />Add yourself!
+	</div>
 </body>
+
 </html>

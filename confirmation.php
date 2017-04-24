@@ -34,10 +34,13 @@ if(!$Database->query("SELECT `Name` FROM UpdatedAlumni WHERE ID={$_GET['ID']}")-
   <div class="panel-body">
     <?php
     if($a == 'Verify') {
+	
       $query = $Database->query("SELECT * FROM UpdatedAlumni WHERE ID={$_GET['ID']}")->fetch_array();
-      print_r("<strong>Name: </strong>".$query["Name"]);
+      $location = $Database->query("SELECT CONCAT(City, ', ', State) FROM MapLocation WHERE ID=\"".$query["Location"]."\"")->fetch_array()[0];
+	  
+	  print_r("<strong>Name: </strong>".$query["Name"]);
       print_r("<br><strong>Graduation Year: </strong>".$query["GradYear"]);
-      print_r("<br><strong>Location: </strong>".$Database->query("SELECT `City`||', '||`State` FROM MapLocation WHERE ID=\"".$query["Location"]."\"")->fetch_array());
+      print_r("<br><strong>Location: </strong> {$location} (<a href='https://www.google.com/maps/place/{$location}' target=_blank>View on Google Maps</a>)");
       print_r("<br><strong>Education: </strong>".$query["Education"]);
       print_r("<br><strong>Job: </strong>".$query["Job"]);
       print_r("<br><strong>Salary: </strong>".$query["Salary"]."<br>");
@@ -62,7 +65,7 @@ function deny() {
     ID: '.$_GET["ID"].'
   },
   success: function(data) {
-    $("#resultBox").text(data);
+    $("#resultBox").text(JSON.parse(data));
   },
   error: function(data) {
     $("#resultBox").text("There was an error with denying this user");
@@ -78,7 +81,7 @@ data: {
   ID: '.$_GET["ID"].'
 },
 success: function(data) {
-  $("#resultBox").text(data);
+  $("#resultBox").text(JSON.parse(data));
 },
 error: function(data) {
   $("#resultBox").text("There was an error with denying this user");
@@ -96,7 +99,7 @@ function approve() {
     ID: '.$_GET["ID"].'
   },
   success: function(data) {
-    $("#resultBox").text(data);
+    $("#resultBox").text(JSON.parse(data));
   },
   error: function(data) {
     $("#resultBox").text("There was an error with denying this user");
@@ -112,7 +115,7 @@ data: {
   ID: '.$_GET["ID"].'
 },
 success: function(data) {
-  $("#resultBox").text(data);
+  $("#resultBox").text(JSON.parse(data));
 },
 error: function(data) {
   $("#resultBox").text("There was an error with denying this user");

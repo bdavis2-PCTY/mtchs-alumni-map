@@ -1,4 +1,9 @@
-﻿html, body {
+﻿:root{
+	--primary-color:#f7584c;
+	--hover-color:#f96e63;
+}
+
+html, body {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -8,7 +13,7 @@
 
 #popoutWrapper a {
     text-decoration: none;
-    color: #f7584c;
+    color: var(--primary-color);
     transition: color 300ms;
 }
 
@@ -22,7 +27,7 @@
     z-index: 5;
 }
 
-#popoutWrapper, #popoutStudentSelect, #formPopoutWrapper {
+#popoutWrapper, #popoutStudentSelect, #newEntryForm {
     background-color: #fff;
     padding: 0;
     box-shadow: 0 0 10px #000;
@@ -32,18 +37,22 @@
     right: 0;
     width: 340px;
     height: 100%;
-    border-top: 3px solid #f7584c;
+    border-top: 3px solid var(--primary-color);
 	max-height:100%;
 	overflow:auto;
 	z-index:10000;
 }
 
-    #popoutWrapper #popoutHeader, #formPopoutHeader {
+    #popoutWrapper #popoutHeader, #newEntryHeader {
         text-align: center;
     }
+	
+	#newEntryHeader {
+		padding:10px 0;
+	}
 
         #popoutWrapper #popoutHeader hr {
-            border-top: 1pt solid #f7584c;
+            border-top: 1pt solid var(--primary-color);
             width: 150px;
         }
 
@@ -61,7 +70,7 @@
     }
 
         #popoutWrapper #popoutBody .variableData {
-            color: #f7584c;
+            color: var(--primary-color);
             font-weight: bold;
         }
 
@@ -184,4 +193,42 @@
 	margin:0;
 	padding:0;
 	border-radius:0;
+}
+
+
+#newEntryBody label {
+	color:#444;
+}
+
+#newEntryBody .newEntryField { 
+	padding:0 10px;
+}
+
+
+#newEntryBody .newEntryField.required label::after{
+	content: " *";
+	color: red;
+}
+
+#newEntrySubmit{
+	margin-top: 20px;
+	text-align:center;
+}
+
+#newEntrySubmit button{
+	background-color:var(--primary-color);
+	color:#fff;
+	transition:background-color 0.5s;
+}
+
+#newEntrySubmit button:hover{
+	background-color:var(--hover-color);
+}
+
+#errorMessage {
+	margin: 0 10px;
+}
+
+#newEntryForm input {
+	margin-bottom:10px;
 }
