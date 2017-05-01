@@ -1,3 +1,11 @@
+<?php 
+
+require "requireLogin.php";
+checkLogin();
+
+?>
+
+
 <html>
 <head>
 <!-- jQuery -->

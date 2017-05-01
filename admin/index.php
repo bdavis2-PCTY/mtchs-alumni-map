@@ -1,3 +1,10 @@
+<?php 
+
+require "requireLogin.php";
+checkLogin();
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -57,7 +64,7 @@
           <div class="panel-body">
             <h1>Verify alumni</h1>
             <p>Verify or deny new alumni or alumni changes.</p>
-            <button type="button" class="btn btn-primary">Verify</button>
+            <a href='verify.php'><button type="button" class="btn btn-primary">Verify</button></a>
           </div>
         </div>
       </div>

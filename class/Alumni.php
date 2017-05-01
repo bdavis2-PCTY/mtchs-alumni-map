@@ -16,3 +16,8 @@ class Alumni {
 	}
 	
 }
+
+
+function ConvertDbQueryToAlumni($query){
+	return new Alumni($query['ID'], $query['Name'], $query['GradYear'], $query['Location'], $query['Education'], $query['Job'], $query['Salary']);
+}
