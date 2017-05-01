@@ -20,6 +20,8 @@ if(isset($_GET['ref'])){
 
 <html>
 	<head>
+		<title>MTCHS Alumni Admin Login</title>
+	
 		<!-- jQuery -->
 		<script src="../asset/jquery-3.2.0.js" type="text/javascript"></script>
 
