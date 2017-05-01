@@ -1,4 +1,0 @@
-[24-Apr-2017 09:11:12 America/Denver] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/braydond/public_html/alumni/ajaxHandler.php on line 75
-[24-Apr-2017 09:11:30 America/Denver] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/braydond/public_html/alumni/ajaxHandler.php on line 75
-[24-Apr-2017 09:11:32 America/Denver] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/braydond/public_html/alumni/ajaxHandler.php on line 75
-[24-Apr-2017 09:13:16 America/Denver] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/braydond/public_html/alumni/ajaxHandler.php on line 76
