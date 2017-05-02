@@ -1,3 +1,11 @@
+<?php 
+
+require "requireLogin.php";
+checkLogin();
+
+?>
+
+
 <html>
 <head>
 <!-- jQuery -->
@@ -17,9 +25,8 @@
 <!--<script src="../asset/materialize/materialize.min.js" type="text/javascript"></script>
 	<link rel="stylesheet" href="../asset/materialize/materialize.min.css" type="text/css" />-->
 
-<script src="../asset/jquery.bootgrid.min.js"></script>
-<script src="../asset/jquery.bootgrid.fa.min.js"></script>
-<link rel="stylesheet" href="../asset/jquery.bootgrid.min.css">
+<script src="../asset/bootgrid/jquery.bootgrid.min.js"></script>
+<link rel="stylesheet" href="../asset/bootgrid/jquery.bootgrid.min.css">
 
 <title>MTCHS Graduate Map | Admin</title>
 <style>

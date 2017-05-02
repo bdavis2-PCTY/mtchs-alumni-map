@@ -1,3 +1,0 @@
-[02-May-2017 08:50:56 America/Denver] PHP Warning:  require(class/Alumni.php): failed to open stream: No such file or directory in /home/braydond/public_html/alumni/admin/confirmation.php on line 6
-[02-May-2017 08:50:56 America/Denver] PHP Warning:  require(class/Alumni.php): failed to open stream: No such file or directory in /home/braydond/public_html/alumni/admin/confirmation.php on line 6
-[02-May-2017 08:50:56 America/Denver] PHP Fatal error:  require(): Failed opening required 'class/Alumni.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/braydond/public_html/alumni/admin/confirmation.php on line 6

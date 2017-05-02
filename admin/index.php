@@ -50,7 +50,7 @@
 								<div class="panel-body">
 									<h1>View all alumni</h1>
 									<p>View and change all existing alumni.</p>
-									<button type="button" class="btn btn-primary">View</button>
+									<a href='viewAll.php'><button type="button" class="btn btn-primary">View</button></a>
 								</div>
 							</div>
 						</div>

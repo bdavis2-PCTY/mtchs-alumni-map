@@ -1,7 +1,7 @@
 <?php
 
-	require "requireLogin.php";
-	checkLogin();
+	//require "requireLogin.php";
+	//checkLogin();
 
     require "../class/Alumni.php";
     require "../class/Database.php";
