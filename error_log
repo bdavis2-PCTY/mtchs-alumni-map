@@ -1,0 +1,549 @@
+[20-Apr-2017 14:00:39 America/Denver] PHP Warning:  require(class/Alumni.php): failed to open stream: No such file or directory in /home/coltonhs/public_html/alumni/admin/uploader.php on line 14
+[20-Apr-2017 14:00:39 America/Denver] PHP Warning:  require(class/Alumni.php): failed to open stream: No such file or directory in /home/coltonhs/public_html/alumni/admin/uploader.php on line 14
+[20-Apr-2017 14:00:39 America/Denver] PHP Fatal error:  require(): Failed opening required 'class/Alumni.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/coltonhs/public_html/alumni/admin/uploader.php on line 14
+[20-Apr-2017 14:03:27 America/Denver] PHP Warning:  require(class/Alumni.php): failed to open stream: No such file or directory in /home/coltonhs/public_html/alumni/admin/uploader.php on line 14
+[20-Apr-2017 14:03:27 America/Denver] PHP Warning:  require(class/Alumni.php): failed to open stream: No such file or directory in /home/coltonhs/public_html/alumni/admin/uploader.php on line 14
+[20-Apr-2017 14:03:27 America/Denver] PHP Fatal error:  require(): Failed opening required 'class/Alumni.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/coltonhs/public_html/alumni/admin/uploader.php on line 14
+[24-Apr-2017 09:28:18 America/Denver] PHP Warning:  file_get_contents(../uploads/Alumni (5).csv): failed to open stream: No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 14
+[24-Apr-2017 09:28:18 America/Denver] PHP Warning:  unlink(../uploads/Alumni (5).csv): No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 33
+[25-Apr-2017 09:19:04 America/Denver] PHP Warning:  file_get_contents(../uploads/Alumni (5).csv): failed to open stream: No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 14
+[25-Apr-2017 09:19:04 America/Denver] PHP Warning:  unlink(../uploads/Alumni (5).csv): No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 33
+[25-Apr-2017 09:20:09 America/Denver] PHP Warning:  file_get_contents(Alumni (5).csv): failed to open stream: No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 14
+[25-Apr-2017 09:20:09 America/Denver] PHP Warning:  unlink(../uploads/Alumni (5).csv): No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 33
+[25-Apr-2017 09:20:35 America/Denver] PHP Warning:  file_get_contents(../uploads/Alumni (5).csv): failed to open stream: No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 14
+[25-Apr-2017 09:20:35 America/Denver] PHP Warning:  unlink(../uploads/Alumni (5).csv): No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 33
+[25-Apr-2017 09:20:48 America/Denver] PHP Fatal error:  Unsupported operand types in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 27
+[25-Apr-2017 09:21:38 America/Denver] PHP Fatal error:  Call to a member function query() on a non-object in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 29
+[25-Apr-2017 09:22:01 America/Denver] PHP Fatal error:  Call to a member function query() on a non-object in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 29
+[25-Apr-2017 09:22:18 America/Denver] PHP Fatal error:  Call to a member function query() on a non-object in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 29
+[25-Apr-2017 09:26:18 America/Denver] PHP Warning:  file_get_contents(../uploads/Alumni (5).csv): failed to open stream: No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 14
+[25-Apr-2017 09:26:18 America/Denver] PHP Warning:  unlink(../uploads/Alumni (5).csv): No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 33
+[25-Apr-2017 12:08:22 America/Denver] PHP Parse error:  syntax error, unexpected '$', expecting ',' or ';' in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 78
+[25-Apr-2017 12:16:31 America/Denver] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 80
+[25-Apr-2017 12:23:53 America/Denver] PHP Warning:  file_get_contents(../uploads/Alumni (5).csv): failed to open stream: No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 15
+[25-Apr-2017 12:23:53 America/Denver] PHP Warning:  unlink(../uploads/Alumni (5).csv): No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 34
+[25-Apr-2017 12:30:04 America/Denver] PHP Warning:  file_get_contents(../uploads/Alumni (5).csv): failed to open stream: No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 15
+[25-Apr-2017 12:30:04 America/Denver] PHP Warning:  unlink(../uploads/Alumni (5).csv): No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 33
+[25-Apr-2017 12:30:10 America/Denver] PHP Warning:  file_get_contents(../uploads/Alumni (5).csv): failed to open stream: No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 15
+[25-Apr-2017 12:30:10 America/Denver] PHP Warning:  unlink(../uploads/Alumni (5).csv): No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 33
+[25-Apr-2017 12:37:48 America/Denver] PHP Warning:  file_get_contents(../uploads/Alumni (5).csv): failed to open stream: No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 14
+[25-Apr-2017 12:37:48 America/Denver] PHP Warning:  unlink(../uploads/Alumni (5).csv): No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 34
+[25-Apr-2017 12:38:37 America/Denver] PHP Warning:  file_get_contents(../uploads/Alumni (5).csv): failed to open stream: No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 14
+[25-Apr-2017 12:38:37 America/Denver] PHP Warning:  unlink(../uploads/Alumni (5).csv): No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 34
+[25-Apr-2017 12:38:49 America/Denver] PHP Fatal error:  Call to undefined function query() in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 28
+[25-Apr-2017 13:04:50 America/Denver] PHP Warning:  file_get_contents(../uploads/Alumni (5).csv): failed to open stream: No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 14
+[25-Apr-2017 13:25:24 America/Denver] PHP Warning:  file_get_contents(../uploads/Alumni (5).csv): failed to open stream: No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 15
+[25-Apr-2017 13:25:24 America/Denver] PHP Warning:  unlink(../uploads/Alumni (5).csv): No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 38
+[25-Apr-2017 13:49:51 America/Denver] PHP Fatal error:  Class 'Object' not found in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 15
+[25-Apr-2017 13:50:31 America/Denver] PHP Catchable fatal error:  Object of class Object could not be converted to string in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 43
+[25-Apr-2017 13:51:13 America/Denver] PHP Warning:  file_get_contents(../uploads/Alumni (5).csv): failed to open stream: No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 18
+[25-Apr-2017 13:51:13 America/Denver] PHP Warning:  unlink(../uploads/Alumni (5).csv): No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 44
+[25-Apr-2017 14:03:42 America/Denver] PHP Warning:  file_get_contents(../uploads/Alumni (5).csv): failed to open stream: No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 18
+[25-Apr-2017 14:03:42 America/Denver] PHP Warning:  unlink(../uploads/Alumni (5).csv): No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 44
+[25-Apr-2017 14:04:26 America/Denver] PHP Warning:  file_get_contents(../uploads/Alumni (5).csv): failed to open stream: No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 18
+[25-Apr-2017 14:04:26 America/Denver] PHP Warning:  unlink(../uploads/Alumni (5).csv): No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 44
+[25-Apr-2017 14:04:27 America/Denver] PHP Warning:  file_get_contents(../uploads/Alumni (5).csv): failed to open stream: No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 18
+[25-Apr-2017 14:04:27 America/Denver] PHP Warning:  unlink(../uploads/Alumni (5).csv): No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 44
+[25-Apr-2017 14:04:27 America/Denver] PHP Warning:  file_get_contents(../uploads/Alumni (5).csv): failed to open stream: No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 18
+[25-Apr-2017 14:04:27 America/Denver] PHP Warning:  unlink(../uploads/Alumni (5).csv): No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 44
+[25-Apr-2017 14:04:28 America/Denver] PHP Warning:  file_get_contents(../uploads/Alumni (5).csv): failed to open stream: No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 18
+[25-Apr-2017 14:04:28 America/Denver] PHP Warning:  unlink(../uploads/Alumni (5).csv): No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 44
+[25-Apr-2017 14:04:28 America/Denver] PHP Warning:  file_get_contents(../uploads/Alumni (5).csv): failed to open stream: No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 18
+[25-Apr-2017 14:04:28 America/Denver] PHP Warning:  unlink(../uploads/Alumni (5).csv): No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 44
+[25-Apr-2017 14:04:28 America/Denver] PHP Warning:  file_get_contents(../uploads/Alumni (5).csv): failed to open stream: No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 18
+[25-Apr-2017 14:04:28 America/Denver] PHP Warning:  unlink(../uploads/Alumni (5).csv): No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 44
+[27-Apr-2017 12:01:11 America/Denver] PHP Warning:  file_get_contents(../uploads/Alumni (5).csv): failed to open stream: No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 18
+[27-Apr-2017 12:01:11 America/Denver] PHP Warning:  unlink(../uploads/Alumni (5).csv): No such file or directory in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 57
+[27-Apr-2017 12:07:25 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '$' in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 102
+[27-Apr-2017 12:07:57 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '$' in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 102
+[27-Apr-2017 12:08:00 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '$' in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 102
+[27-Apr-2017 12:08:00 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '$' in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 102
+[27-Apr-2017 12:08:01 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '$' in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 102
+[27-Apr-2017 12:08:06 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '$' in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 102
+[27-Apr-2017 12:09:08 America/Denver] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '$' in /home/coltonhs/public_html/alumni/admin/uploadHandler.php on line 102
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:16:10 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 11
+[27-Apr-2017 13:17:55 America/Denver] PHP Parse error:  syntax error, unexpected '$results' (T_VARIABLE) in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 7
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'ID' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Name' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'GradYear' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Location' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Education' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Job' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Salary' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Verified' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Printed' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'Updated' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:18:06 America/Denver] PHP Warning:  Illegal string offset 'New' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 12
+[27-Apr-2017 13:58:39 America/Denver] PHP Parse error:  syntax error, unexpected 'false' (T_STRING), expecting ',' or ';' in /home/coltonhs/public_html/alumni/admin/viewAllHandler.php on line 9
