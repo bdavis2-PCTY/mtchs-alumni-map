@@ -138,7 +138,7 @@ if ($a == "CityLocations"){
 	$query = $Database->query("INSERT INTO `UpdatedAlumni`(`Name`, `GradYear`, `Location`, `Education`, `Job`, `Salary`, `Verified`) VALUES('{$Name}', '{$GradYear}', '{$Location}', '{$Education}', '{$Job}', '{$Salary}', '0')");
 	$ID = $Database->query("SELECT LAST_INSERT_ID()")->fetch_array()[0];
 	$subject = "New alumni verification";
-	$message = "A new user has been requested in the database.\n\nUse the following link to confirm or deny this addition: http://".($_SERVER['HTTP_HOST'].dirname($_SERVER['PHP_SELF']))."/confirmation.php?a=Verify&ID={$ID}";
+	$message = "A new user has been requested in the database.\n\nUse the following link to confirm or deny this addition: {$APP_PATH}/admin/confirmation.php?a=Verify&ID={$ID}";
 	mail($SMTP_OVERRIDE_EMAIL, $subject, $message);
 	responseHandler($message);
 		
@@ -157,7 +157,7 @@ if ($a == "CityLocations"){
 	$query = $Database->query("INSERT INTO `UpdatedAlumni`(`Name`, `GradYear`, `Location`, `Education`, `Job`, `Salary`, `Verified`) VALUES('{$Name}', '{$GradYear}', '{$Location}', '{$Education}', '{$Job}', '{$Salary}', '{$Verified}')");
 	$ID = $Database->query("SELECT ID FROM UpdatedAlumni WHERE Name ='{$Name}' AND GradYear='{$GradYear}' AND Location='{$Location}'")->fetch_array()[0];
 	$subject = "Alumni update verification";
-	$message = "A user has requested update in the database. Use the link below to confirm    http://coltonh.smtchs.org/alumni/confirmation.php?a=Update&Confirm=true&ID=".$ID."    or use the following link to decline     http://coltonh.smtchs.org/alumni/confirmation.php?a=Update&Confirm=false&ID=".$ID;
+	$message = "A user has requested update in the database. Use the link below to confirm    {$APP_PATH}/admin/confirmation.php?a=Update&Confirm=true&ID=".$ID."    or use the following link to decline     {$APP_PATH}/admin/confirmation.php?a=Update&Confirm=false&ID=".$ID;
 	mail($SMTP_OVERRIDE_EMAIL, $subject, $message);
 	responseHandler($message);
 	
