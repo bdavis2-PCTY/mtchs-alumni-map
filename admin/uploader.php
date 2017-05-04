@@ -1,3 +1,12 @@
+<?php 
+
+	require "requireLogin.php";
+	checkLogin();
+	
+	require "../settings.php";
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -72,7 +81,7 @@
 	formData.append('file', $('#fileToUpload')[0].files[0]);
 
 	$.ajax({
-	      url : 'http://braydond.smtchs.org/alumni/admin/uploadHandler.php',
+	      url : '<?php echo $APP_PATH; ?>/admin/uploadHandler.php',
 	      type : 'POST',
 	      data : formData,
 	      processData: false,  // tell jQuery not to process the data
@@ -98,7 +107,7 @@
 	formData.append('finalUpload', 'true');
 
 	$.ajax({
-	      url : 'http://braydond.smtchs.org/alumni/admin/uploadHandler.php',
+	      url : '<?php echo $APP_PATH; ?>/admin/uploadHandler.php',
 	      type : 'POST',
 	      data : formData,
 	      dataType: 'JSON',

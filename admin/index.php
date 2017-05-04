@@ -76,7 +76,7 @@
                             <div class="panel-body">
                                 <h1>Upload users</h1>
                                 <p>Upload a CSV or TXT file of alumni to be added to the map.</p>
-                                <a href="uploader.html"><button type="button" class="btn btn-primary">Upload</button></a>
+                                <a href="uploader.php"><button type="button" class="btn btn-primary">Upload</button></a>
                             </div>
                         </div>
                     </div>
