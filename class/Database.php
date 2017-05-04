@@ -1,5 +1,8 @@
 <?php
 
+	require "../settings.php";
+	
+
 	// Database class
 	class Database {
 		// Database connection info
@@ -52,7 +55,7 @@
 	}
 
 	// connect to the database
-	$Database = new Database ( "clone.smtchs.org", "clonesmt_map", "spruceS0ruce", "clonesmt_alumnimap" );
+	$Database = new Database ( $DB_HOST, $DB_USER, $DB_PASSWORD, $DB_DBNAME );
 	
 	//  Ensure the "Alumni" table exists
 	$Database->query("CREATE TABLE IF NOT EXISTS `Alumni` (
