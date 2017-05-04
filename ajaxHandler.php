@@ -60,38 +60,38 @@ if ($a == "CityLocations"){
 
 
 } else if ( $a == "JobsAndSalary") {
-	// if(isset($_POST['sort'])) {
-	// 	$sort = $_POST['sort'];
-	// 	if($sort = "salaryDesc") {
-	// 		$jobs = array();
-	// 		$query = $Database->query("SELECT Job, AVG(Salary) AS Salary FROM Alumni WHERE Salary IS NOT NULL AND Salary <> 0 GROUP BY Job ORDER BY Salary desc");
-	// 		while ( $row = $query->fetch_array())
-	// 			$jobs[$row['Job']] = $row['Salary'];
-	// 		responseHandler($jobs);
-	// 	}
-	// 	if($sort = "salaryAsc") {
-	// 		$jobs = array();
-	// 		$query = $Database->query("SELECT Job, AVG(Salary) AS Salary FROM Alumni WHERE Salary IS NOT NULL AND Salary <> 0 GROUP BY Job ORDER BY Salary asc");
-	// 		while ( $row = $query->fetch_array())
-	// 			$jobs[$row['Job']] = $row['Salary'];
-	// 		responseHandler($jobs);
-	// 	}
-	// 	if($sort = "jobDesc") {
-	// 		$jobs = array();
-	// 		$query = $Database->query("SELECT Job, AVG(Salary) AS Salary FROM Alumni WHERE Salary IS NOT NULL AND Salary <> 0 GROUP BY Job ORDER BY Job desc");
-	// 		while ( $row = $query->fetch_array())
-	// 			$jobs[$row['Job']] = $row['Salary'];
-	// 		responseHandler($jobs);
-	// 	}
-	// 	if($sort = "jobAsc") {
-	// 		$jobs = array();
-	// 		$query = $Database->query("SELECT Job, AVG(Salary) AS Salary FROM Alumni WHERE Salary IS NOT NULL AND Salary <> 0 GROUP BY Job ORDER BY Job Asc");
-	// 		while ( $row = $query->fetch_array())
-	// 			$jobs[$row['Job']] = $row['Salary'];
-	// 		responseHandler($jobs);
-	// 	}
-	// }
-	// To get the data for the jobs & salary page on the main MTCHS site
+	if(isset($_POST['sort'])) {
+		$sort = $_POST['sort'];
+		if($sort = "salaryDesc") {
+			$jobs = array();
+			$query = $Database->query("SELECT Job, AVG(Salary) AS Salary FROM Alumni WHERE Salary IS NOT NULL AND Salary <> 0 GROUP BY Job ORDER BY Salary desc");
+			while ( $row = $query->fetch_array())
+				$jobs[$row['Job']] = $row['Salary'];
+			responseHandler($jobs);
+		}
+		if($sort = "salaryAsc") {
+			$jobs = array();
+			$query = $Database->query("SELECT Job, AVG(Salary) AS Salary FROM Alumni WHERE Salary IS NOT NULL AND Salary <> 0 GROUP BY Job ORDER BY Salary asc");
+			while ( $row = $query->fetch_array())
+				$jobs[$row['Job']] = $row['Salary'];
+			responseHandler($jobs);
+		}
+		if($sort = "jobDesc") {
+			$jobs = array();
+			$query = $Database->query("SELECT Job, AVG(Salary) AS Salary FROM Alumni WHERE Salary IS NOT NULL AND Salary <> 0 GROUP BY Job ORDER BY Job desc");
+			while ( $row = $query->fetch_array())
+				$jobs[$row['Job']] = $row['Salary'];
+			responseHandler($jobs);
+		}
+		if($sort = "jobAsc") {
+			$jobs = array();
+			$query = $Database->query("SELECT Job, AVG(Salary) AS Salary FROM Alumni WHERE Salary IS NOT NULL AND Salary <> 0 GROUP BY Job ORDER BY Job Asc");
+			while ( $row = $query->fetch_array())
+				$jobs[$row['Job']] = $row['Salary'];
+			responseHandler($jobs);
+		}
+	}
+	//To get the data for the jobs & salary page on the main MTCHS site
 	$jobs = array();
 	$query = $Database->query("SELECT Job, AVG(Salary) AS Salary FROM Alumni WHERE Salary IS NOT NULL AND Salary <> 0 GROUP BY Job");
 	while ( $row = $query->fetch_array())
