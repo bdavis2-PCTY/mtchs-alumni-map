@@ -15,17 +15,22 @@ $(document).ready(function() {
     studentView = $("#popoutWrapper");
     newForm = $("#newEntryForm");
 
-        $("#formerGraduateButton").click(function() {
-			$("#entireNewEntryForm").show();
-			$("#successMessage, #errorMessage").hide();
-            showPanel(newForm)
-        });
+    // Event handler for the 'New Alumni' button 
+	$("#formerGraduateButton").click(function() {
+		$("#entireNewEntryForm").show();
+		$("#successMessage, #errorMessage").hide();
+        showPanel(newForm)
+	});
 
+	// Put the graduation years into the alumni dropdown
+	// Note: The current year only appears after april ends
 	var gradYearHTML = "";	
-	var currentYear = new Date().getFullYear();
+	var date = new Date();
+	var currentYear = date.getFullYear();
+	
     for (var i = currentYear; i >= 1999; i--) {
 		if ( i === currentYear ){
-			var month = new Date().getMonth() + 1;
+			var month = date.getMonth() + 1;
 			if ( month < 5 )
 				continue;
 		}
@@ -34,7 +39,8 @@ $(document).ready(function() {
     }
 	$("#newEntryGradYear").html(gradYearHTML);
 	
-
+	
+	// Listen for when the user changes the year 
     $('#graduationYearDropdown').dropdown({
         onChange: function() {
             if ($('#graduationYearDropdown').hasClass('active')) {
@@ -45,10 +51,7 @@ $(document).ready(function() {
         }
     });
 
-    $('#graduationYearDropdown').dropdown('set selected', '2016');
-
-    $('#testtestet').dropdown();
-
+	// Set timer to load dropdowns
     setTimeout(function() {
         $('.ui.dropdown').dropdown();
         $('#graduationYearDropdown').dropdown();
@@ -60,6 +63,7 @@ $(document).ready(function() {
         hidePanel();
     });
 
+	// Hide the inital page spinner 
     $(window).on('load', function() {
         $("#loadingSpinner").fadeOut();
     });

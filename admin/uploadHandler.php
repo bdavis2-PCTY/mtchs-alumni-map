@@ -1,4 +1,7 @@
 <?php
+
+header('Access-Control-Allow-Origin: *');
+
 require "../class/Alumni.php";
 require "../class/Database.php";
 require "../class/MapLocation.php";

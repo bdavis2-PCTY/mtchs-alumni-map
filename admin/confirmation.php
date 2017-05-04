@@ -1,14 +1,22 @@
 <?php
+	
+	// Verification page 
+	// Admins can approve or deny new alumni requests with this page
+	
+	// Validate the user has logged in as an admin 
+	require "requireLogin.php";
+	checkLogin();
 
-	//require "requireLogin.php";
-	//checkLogin();
-
+	// Required classes
     require "../class/Alumni.php";
     require "../class/Database.php";
     
-	if(!$Database->query("SELECT `Name` FROM UpdatedAlumni WHERE ID={$_GET['ID']}")->fetch_array()[0]) {
-      return print_r("This page has been accessed in error");
-    }
+	// Check if the user is trying to pull someone up
+	if(isset($_GET['ID'])){
+		if(!$Database->query("SELECT `Name` FROM UpdatedAlumni WHERE ID={$_GET['ID']}")->fetch_array()[0]) {
+		  return print_r("This page has been accessed in error");
+		}
+	}
 ?>
 
 <!DOCTYPE html>
@@ -25,11 +33,14 @@
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
                 <h3 class="text-center"><?php
+					// Decide what action to take for the user 
                     $a = $_GET['a'];
                     if($a == 'Verify') {
-                      echo("Verification for new user: ".$Database->query("SELECT `Name` FROM UpdatedAlumni WHERE ID={$_GET['ID']}")->fetch_array()[0]);
+						// Verify the user 
+						echo("Verification for new user: ".$Database->query("SELECT `Name` FROM UpdatedAlumni WHERE ID={$_GET['ID']}")->fetch_array()[0]);
                     } else if($a == 'Update') {
-                      echo("Update for user: ".$Database->query("SELECT `Name` FROM UpdatedAlumni WHERE ID={$_GET['ID']}")->fetch_array()[0]);
+						// Update the user 
+						echo("Update for user: ".$Database->query("SELECT `Name` FROM UpdatedAlumni WHERE ID={$_GET['ID']}")->fetch_array()[0]);
                     }
                     ?></h3>
                 <div class="panel panel-default">
@@ -39,7 +50,7 @@
                     <div class="panel-body">
                         <?php
                             if($a == 'Verify') {
-                            
+                            // Display information for verifying them 
                               $query = $Database->query("SELECT * FROM UpdatedAlumni WHERE ID={$_GET['ID']}")->fetch_array();
                               $location = $Database->query("SELECT CONCAT(City, ', ', State) FROM MapLocation WHERE ID=\"".$query["Location"]."\"")->fetch_array()[0];
                             
@@ -63,6 +74,7 @@
         </div>
     </body>
     <script>
+		/* AJAX function for editing the user */
         function deny() {
           <?php if($a == 'Verify') echo('
             $.ajax({
