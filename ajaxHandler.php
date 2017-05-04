@@ -19,6 +19,7 @@ require "class/Alumni.php";
 require "class/Database.php";
 require "class/MapLocation.php";
 
+
 try{
 if ($a == "CityLocations"){
 	// CityLocations: For loading locations on the map
@@ -27,7 +28,7 @@ if ($a == "CityLocations"){
 	// Note: the join enforces alumni actually belong to the location 
 	
 	$req = $Database->query("SELECT * FROM MapLocation m
-							JOIN Alumni a ON m.ID = a.Location 
+							JOIN Alumni a ON m.ID = a.Location
 							WHERE a.ID IS NOT NULL");
 	
 	// Convert all to DTO objects and send back 
@@ -35,10 +36,10 @@ if ($a == "CityLocations"){
 		$locations[] = new MapLocation($a['City'], $a['State'], $a['Longitude'], $a['Latitude']);
 	responseHandler($locations);
 
-	
-	
-	
-	
+
+
+
+
 } elseif ( $a == "StudentsInCity" && isset($_POST["City"])){
 	// StudentsInCity: For loading the students in a city
 	$lowerCity = strtolower($_POST['City']);
@@ -65,41 +66,42 @@ if ($a == "CityLocations"){
 	
 	responseHandler($students);
 
-	
-	
-	
+
 
 } else if ( $a == "JobsAndSalary") {
 	if(isset($_POST['sort'])) {
 		$sort = $_POST['sort'];
-		if($sort = "salaryDesc") {
+		$cont = false;
+		if($sort == "salaryDesc") {
 			$jobs = array();
-			$query = $Database->query("SELECT Job, AVG(Salary) AS Salary FROM Alumni WHERE Salary IS NOT NULL AND Salary <> 0 GROUP BY Job ORDER BY Salary desc");
+			$query = $Database->query("SELECT Job, AVG(Salary) AS Salary FROM Alumni WHERE Salary IS NOT NULL AND Salary <> 0 GROUP BY Job ORDER BY Salary DESC");
 			while ( $row = $query->fetch_array())
 				$jobs[$row['Job']] = $row['Salary'];
 			responseHandler($jobs);
-		}
-		if($sort = "salaryAsc") {
+		} else if($sort == "salaryAsc") {
 			$jobs = array();
-			$query = $Database->query("SELECT Job, AVG(Salary) AS Salary FROM Alumni WHERE Salary IS NOT NULL AND Salary <> 0 GROUP BY Job ORDER BY Salary asc");
+			$query = $Database->query("SELECT Job, AVG(Salary) AS Salary FROM Alumni WHERE Salary IS NOT NULL AND Salary <> 0 GROUP BY Job ORDER BY Salary ASC");
 			while ( $row = $query->fetch_array())
 				$jobs[$row['Job']] = $row['Salary'];
 			responseHandler($jobs);
-		}
-		if($sort = "jobDesc") {
+		} else if($sort == "jobDesc") {
 			$jobs = array();
-			$query = $Database->query("SELECT Job, AVG(Salary) AS Salary FROM Alumni WHERE Salary IS NOT NULL AND Salary <> 0 GROUP BY Job ORDER BY Job desc");
+			$query = $Database->query("SELECT Job, AVG(Salary) AS Salary FROM Alumni WHERE Salary IS NOT NULL AND Salary <> 0 GROUP BY Job ORDER BY Job DESC");
 			while ( $row = $query->fetch_array())
 				$jobs[$row['Job']] = $row['Salary'];
 			responseHandler($jobs);
-		}
-		if($sort = "jobAsc") {
+		} else if($sort == "jobAsc") {
 			$jobs = array();
-			$query = $Database->query("SELECT Job, AVG(Salary) AS Salary FROM Alumni WHERE Salary IS NOT NULL AND Salary <> 0 GROUP BY Job ORDER BY Job Asc");
+			$query = $Database->query("SELECT Job, AVG(Salary) AS Salary FROM Alumni WHERE Salary IS NOT NULL AND Salary <> 0 GROUP BY Job ORDER BY Job ASC");
 			while ( $row = $query->fetch_array())
 				$jobs[$row['Job']] = $row['Salary'];
 			responseHandler($jobs);
+		} else {
+			$cont = true;
 		}
+		
+		if(!$cont)
+			return;
 	}
 	//To get the data for the jobs & salary page on the main MTCHS site
 	$jobs = array();
@@ -107,10 +109,10 @@ if ($a == "CityLocations"){
 	while ( $row = $query->fetch_array())
 		$jobs[$row['Job']] = $row['Salary'];
 	responseHandler($jobs);
-	
-	
-	
-	
+
+
+
+
 } else if($a == "StudentFromId" && isset($_POST['Id']) ) {
 	// StudentFromId: Gets a new alumni object from an existing ID
 	$query = $Database->query("	SELECT
@@ -129,8 +131,8 @@ if ($a == "CityLocations"){
 								
 	$alumni = ConvertDbQueryToAlumni($query);
 	responseHandler($alumni);
-	
-	
+
+
 } else if ($a == "SendAdminLogin" && isset($_POST['email'])){
 	// SendAdminLogin: Sends a login URL to the provided email, as long as its validated 
 	// If not, simply returns false
@@ -141,13 +143,13 @@ if ($a == "CityLocations"){
 	if ( $q->num_rows > 0 ){
 		// Send them an email
 		mail($email, "MTCHS Alumni Admin Login", "Click the following link to login to the MTCHS Alumni Administrator site:\n{$APP_PATH}/admin/AdminLogin.php?ref={$email} \n\nIf you did not request this login, just ignore this message.");
-		
+
 		responseHandler(true);
-	}else 
+	}else
 		responseHandler(false);
-	
-	
-	
+
+
+
 } else if ($a=="UnverifiedAlumni"){
 	// UnverifiedAlumni: Gets a list of all unverified alumni
 	$aq = $Database->query("SELECT
@@ -163,17 +165,19 @@ if ($a == "CityLocations"){
 								FROM UpdatedAlumni a
 								JOIN MapLocation m ON a.Location = m.ID
 								ORDER BY a.ID");
-	
+
 	$alumni = [];
 	while($r = $aq->fetch_array())
 		$alumni[] = ConvertDbQueryToAlumni($r);
-	
+
 	responseHandler($alumni);
-	
+
+
 	
 	
 } else if($a == 'New' && isset($_POST['Name'],$_POST['GradYear'],$_POST['Education'],$_POST['Job'],$_POST['Salary'],$_POST['City'],$_POST['State'])) {
 	// New: Adds an new alumni request (Still requires validation)
+
 	$Name = $_POST['Name'];
 	$GradYear = $_POST['GradYear'];
 	$Education = $_POST['Education'];
@@ -190,10 +194,10 @@ if ($a == "CityLocations"){
 	$message = "A new user has been requested in the database.\n\nUse the following link to confirm or deny this addition: {$APP_PATH}/admin/confirmation.php?a=Verify&ID={$ID}";
 	mail($SMTP_OVERRIDE_EMAIL, $subject, $message);
 	responseHandler($message);
-		
-		
-		
-		
+
+
+
+
 } else if($a == 'Update') {
 	// Update: Updates an existing alumni in the database 
 	$Name = $_POST['Name'];
@@ -209,10 +213,10 @@ if ($a == "CityLocations"){
 	$message = "A user has requested update in the database. Use the link below to confirm    {$APP_PATH}/admin/confirmation.php?a=Update&Confirm=true&ID=".$ID."    or use the following link to decline     {$APP_PATH}/admin/confirmation.php?a=Update&Confirm=false&ID=".$ID;
 	mail($SMTP_OVERRIDE_EMAIL, $subject, $message);
 	responseHandler($message);
-	
-	
-	
-	
+
+
+
+
 } else if($a == "VerifyRequest" && isset($_POST['id'])) {
 	// Verifies a pending request and makes it into an Alumni
 	$ID = @(int)$_POST['id'];
@@ -232,21 +236,21 @@ if ($a == "CityLocations"){
 	$query = $Database->query("INSERT INTO `Alumni`(`Name`, `GradYear`, `Location`, `Education`, `Job`, `Salary`, `Verified`) VALUES('{$existingAlumni->name}', '{$existingAlumni->gradYear}', '{$existingAlumni->location}', '{$existingAlumni->highestEducation}', '{$existingAlumni->job}', '{$existingAlumni->salary}', '1')");
 	$message = "Added user: ".$Name;
 	responseHandler($message);
-		
-		
-		
-		
+
+
+
+
 } else if($a == "DeleteRequest" && isset($_POST['id'])) {
 	// Deletes a pending request
-	$ID = $_POST['id'];
+	$ID = $_POST['id']; 
 	$Name = $Database->query("SELECT Name FROM `UpdatedAlumni` WHERE ID = '".$ID."'")->fetch_array()[0];
 	$query = $Database->query("DELETE FROM `UpdatedAlumni` WHERE ID='{$ID}'");
 	$message = "Approval denied for user: ".$Name;
 	responseHandler($message);
-	
-	
-	
-	
+
+
+
+
 } else if($a == 'ApproveUpdateRequest' && isset($_POST['id'])) {
 	// Approves a request to update an existing alumni
 	$ID = $_POST['ID'];
@@ -255,9 +259,9 @@ if ($a == "CityLocations"){
 	$address = $Database->query("SELECT Location FROM `UpdatedAlumni` WHERE ID = '".$ID."'")->fetch_array()[0];
 	$city = explode(', ', $address)[0];
 	$state = explode(', ', $address)[1];
-			
+
 	$location = getLocationId($city, $state);
-			
+
 	$Education = $Database->query("SELECT Education FROM `UpdatedAlumni` WHERE ID = '".$ID."'")->fetch_array()[0];
 	$Job = $Database->query("SELECT Job FROM `UpdatedAlumni` WHERE ID = '".$ID."'")->fetch_array()[0];
 	$Salary = $Database->query("SELECT Salary FROM `UpdatedAlumni` WHERE ID = '".$ID."'")->fetch_array()[0];
@@ -266,20 +270,20 @@ if ($a == "CityLocations"){
 	$query = $Database->query("DELETE FROM `UpdatedAlumni` WHERE ID='{$ID}'");
 	$message = "Updated user: ".$Name;
 	responseHandler($message);
-	
-	
-	
-	
+
+
+
+
 } else if($a == 'DeleteUpdateRequest') {
 	// Deletes a request to update an existing alumni
 	$Name = $Database->query("SELECT Name FROM `UpdatedAlumni` WHERE ID = '".$ID."'")->fetch_array()[0];
 	$query = $Database->query("DELETE FROM `UpdatedAlumni` WHERE ID='{$ID}'");
 	$message = "Update denied for user: ".$Name;
 	responseHandler($message);
-	
-	
-	
-	
+
+
+
+
 } else {
 	// Unknown action??
 	responseHandler("Unknown action: {$a}");
@@ -329,8 +333,7 @@ function getLocationId($city, $state){
 	// Makes sure there was an actual result
 	if(is_null($existingQuery) || $existingQuery->num_rows == 0)
 		return null;
-	
-	// Send the location ID back
+
 	$loc = $existingQuery->fetch_array()[0];
 	return $loc;
 }
