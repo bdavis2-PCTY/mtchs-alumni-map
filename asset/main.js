@@ -60,6 +60,9 @@ $(document).ready(function() {
 
     // Click handler for closing
     overlay.click(function() {
+		if(waiting)
+			return;
+		
         hidePanel();
     });
 
@@ -222,14 +225,13 @@ function hidePanel(panelSelector, hideOverlay) {
             return false;
     }
 
-	waiting = true;
-	
     // If the panel isn't visible, just finish
     if (!panelSelector.is(":visible")) {
-        waiting = false;
         return panelSelector.animate({}).promise();
     }
 
+	waiting=true;
+	
     // Hide the overlay if none
     if ((hideOverlay == null || typeof hideOverlay === "undefined" || hideOverlay == true) && hideOverlay != false)
         overlay.fadeOut();
@@ -252,7 +254,7 @@ function hidePanel(panelSelector, hideOverlay) {
     };
 
     // Animate and hide panel
-    return panelSelector.animate(toData, 'slow').promise().then(function() {
+    return panelSelector.animate(toData).promise().then(function() {
         waiting = false;
         panelSelector.hide();
     });
